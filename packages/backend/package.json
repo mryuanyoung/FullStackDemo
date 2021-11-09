@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "gen-api": "tsc ./src/utils/api-gen.ts && node ./src/utils/api-gen.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "type": "workspace:^1.0.0"
+  }
+}

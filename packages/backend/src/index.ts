@@ -17,11 +17,11 @@ const app = new Koa();
         //数据库连接
         await createConnection({
             "type": "mysql",
-            "host": "101.33.125.161",
-            "port": 3306,
-            "username": "root",
-            "password": "@yuanyangO00O",
-            "database": "Test",
+            "host": "",   // 数据库地址
+            "port": 3306,       //数据库端口
+            "username": "",   // 数据库用户名
+            "password": "",    // 数据库密码
+            "database": "Test",     // 数据库名称
             "synchronize": true,
             "entities": [
                 "src/PO/*.ts"
